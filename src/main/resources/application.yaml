@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: client
+  datasource:
+    url: jdbc:mysql://clientdb.c7gccsuya4ux.ap-south-1.rds.amazonaws.com:3306/clientdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&connectTimeout=10000
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: admin
+    password: "GaneshAWS#2811"
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  server:
+    port: 8080
+  logging:
+    level:
+      org.hibernate.SQL: DEBUG
+      org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: "ganeshnarangle@gmail.com"
+    password: "moowbbkxguvdvldj"
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
