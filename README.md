@@ -1,4 +1,5 @@
-# ClientAuthApp - Spring Boot Client Authentication Service
+# ClientAuthApp - Spring Boot Client Authentication API
+
 
 ## Overview
 
