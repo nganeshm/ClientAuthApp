@@ -5,7 +5,7 @@ spring:
     url: jdbc:mysql://clientdb.c7gccsuya4ux.ap-south-1.rds.amazonaws.com:3306/clientdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&connectTimeout=10000
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: admin
-    password: "GaneshAWS#2811"
+    password: ********
   jpa:
     hibernate:
       ddl-auto: update
@@ -23,7 +23,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: "ganeshnarangle@gmail.com"
-    password: "moowbbkxguvdvldj"
+    password: "********"
     properties:
       mail:
         smtp:
